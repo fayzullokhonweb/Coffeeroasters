@@ -35,6 +35,8 @@
   --preferance-bg: #f4f1eb;
   --button-hover: #66d2cf;
   --button-disabeled: #e2dedb;
+  --footer-bg: #2C343E;
+
 
   /* fonts */
   --title-font-family: "Fraunces", sans;
@@ -153,8 +155,6 @@ h4 {
   opacity: 0.6;
 }
 
-.site-logo__image {}
-
 .sitenav {}
 
 .sitenav__list {
@@ -185,3 +185,55 @@ h4 {
 }
 
 /* HEADER END */
+
+/* FOOTER START */
+.footer {
+  margin-bottom: 88px;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  padding: 47px 85px;
+  background-color: var(--footer-bg);
+
+
+
+}
+
+.container {}
+
+.site-logo {
+  margin-right: 102px;
+}
+
+.site-logo__image {}
+
+.sitenav {}
+
+.footer-sitenav {
+  margin-right: auto;
+}
+
+.sitenav__list {}
+
+.sitenav__item {}
+
+.footer-sitenav .sitenav__link:hover {
+  color: var(--light-cream-bg);
+
+}
+
+.footer__socials-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.footer__socials-item {}
+
+.footer__socials-link {
+  transition: var(--transition-duration);
+}
+
+/* FOOTER END */
