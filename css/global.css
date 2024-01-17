@@ -78,3 +78,28 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+.header {}
+
+.header__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {}
+
+.site-logo {}
+
+.site-logo__image {}
+
+.sitenav {}
+
+.sitenav__list {
+  display: flex;
+  gap: 33px;
+}
+
+.sitenav__item {}
+
+.sitenav__link {}
