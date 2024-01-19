@@ -1,0 +1,57 @@
+/* HERO START */
+
+.hero {}
+
+.hero__container {
+  padding: 137px 85px;
+  border-radius: 10px;
+  background: #A2A2A2;
+  background-image: url('../images/about/desktop/image-hero-whitecup.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 168px;
+}
+
+.hero__content {
+  color: var(--light-cream-bg);
+}
+
+.hero__title {
+  margin-bottom: 24px;
+}
+
+.hero__description {
+  width: 445px;
+}
+
+/* HERO END */
+
+/* FEATURES START */
+.features {}
+
+.features__container {
+  display: flex;
+  padding-left: 85px;
+  align-items: center;
+  gap: 125px;
+  margin-bottom: 250px;
+}
+
+.features__img {
+  border-radius: 8px;
+  background: #0E8784;
+}
+
+.features__content {
+  width: 540px;
+}
+
+.features__content-title {
+  margin-bottom: 32px;
+}
+
+.features__content-text {
+  width: 539px;
+}
+
+/* FEATURES END */
