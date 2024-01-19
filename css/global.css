@@ -59,6 +59,10 @@
   outline-offset: 3px;
 }
 
+#active {
+  text-decoration: underline 1.5px;
+}
+
 a {
   text-decoration: none;
   display: inline-block;
@@ -232,8 +236,13 @@ h4 {
 
 .footer__socials-item {}
 
-.footer__socials-link {
+.footer__socials-link,
+svg path {
   transition: var(--transition-duration);
+}
+
+.footer__socials-link:hover svg path {
+  fill: var(--pale-orange);
 }
 
 /* FOOTER END */
